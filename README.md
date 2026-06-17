@@ -1,4 +1,4 @@
-# VoiceToText 🎙️
+# VoiceToLun 🎙️
 
 Мощное и удобное Windows-приложение для голосового ввода текста, работающее полностью локально. Позволяет диктовать текст голосом и моментально вставлять его в любое активное окно (мессенджеры, код-редакторы, браузеры, текстовые документы).
 
@@ -37,7 +37,7 @@
 
 1. **Склонируйте репозиторий:**
 ```bash
-git clone https://github.com/Slunys/VoiceToText.git
+git clone https://github.com/Slunys/VoiceToLun.git
 cd VoiceToText
 ```
 
@@ -74,12 +74,12 @@ python main.py
 1. Убедитесь, что вы находитесь в активированном виртуальном окружении.
 2. Выполните команду сборки:
 ```bash
-pyinstaller --noconsole --name "VoiceTyping" --collect-all faster_whisper --collect-all ctranslate2 main.py
+pyinstaller --noconsole --name "VoiceToLun" --collect-all faster_whisper --collect-all ctranslate2 main.py
 ```
 
 
-3. После завершения сборки перейдите в появившуюся папку `dist/VoiceTyping/`.
-4. **ОБЯЗАТЕЛЬНО:** Скопируйте папку `whisper_models` из корня проекта внутрь `dist/VoiceTyping/`, чтобы она лежала рядом с файлом `VoiceTyping.exe`.
+3. После завершения сборки перейдите в появившуюся папку `dist/VoiceToLun/`.
+4. **ОБЯЗАТЕЛЬНО:** Скопируйте папку `whisper_models` из корня проекта внутрь `dist/VoiceToLun/`, чтобы она лежала рядом с файлом `VoiceToLun.exe`.
 5. Теперь папку `VoiceTyping` можно переместить в любое удобное место на компьютере и запускать программу через `.exe` файл!
 
 ---
