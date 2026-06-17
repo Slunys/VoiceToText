@@ -1,0 +1,6 @@
+dist/
+build/
+whisper_models/
+venv/
+__pycache__/
+*.spec
